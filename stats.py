@@ -30,7 +30,7 @@ def load_bibs(fpath):
 
     fig = plt.figure()
     ax = fig.add_subplot()
-    ax.set_title(f"File={fpath}, Years={years}, #papers={npaps}")
+    ax.set_title(f"Citations: File={fpath}|Years={years}|#papers={npaps}")
     plt.bar(qstr, pcts)
     plt.xlabel("Percentile bands")
     plt.ylabel("Percentage of papers in band")
