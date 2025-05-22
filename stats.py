@@ -11,6 +11,7 @@ def load_bibs(fpath):
     df = pd.read_csv(fpath)
     years = [2020, 2021, 2022]
     df = df.loc[df["Year"].isin(years)]
+    df = df.loc[df["Document Type"] == "Conference paper"]
     npaps = len(df.index)
     print(f"No. of papers = {npaps}")
     qs = df["Cited by"]
