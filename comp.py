@@ -8,11 +8,24 @@ import pandas as pd
 
 
 years = [2018, 2019, 2020]
-dsets = {"QEST": "qest-scopus.csv",
-         "CONCUR": "concur-scopus.csv",
-         "FORMATS": "formats-scopus.csv"}
+# A conferences
+adsets = {"QEST": "qest-scopus.csv",
+          "FORMATS": "formats-scopus.csv",
+          "CONCUR": "concur-scopus.csv",
+          "FM": "fm-scopus.csv",
+          "IJCAR": "ijcar-scopus.csv",
+          "TACAS": "tacas-scopus.csv",
+          "FOSSCAS": "fossacs-scopus.csv",
+          "SAT": "sat-scopus.csv"}
+# B conferences
+bdsets = {"QEST": "qest-scopus.csv",
+          "FORMATS": "formats-scopus.csv",
+          "CSL": "csl-scopus.csv",  # "LPAR": "lpar-scopus.csv",
+          "ATVA": "atva-scopus.csv",
+          "FMCAD": "fmcad-scopus.csv",
+          "VMCAI": "vmcai-scopus.csv"}
 qpcts = [.05, .10, .25, .50]
-width = 0.8 / len(dsets)
+width = 0.8 / 8  # len(dsets)
 
 
 def load_bibs(fpath, dsname, ithbar):
@@ -45,19 +58,28 @@ def load_bibs(fpath, dsname, ithbar):
 
 
 if __name__ == "__main__":
-    assert len(sys.argv) == 1
+    assert len(sys.argv) == 2
     plt.title(f"Citations for years={years}")
     plt.xlabel("Top percentiles")
     plt.ylabel("Percentage of papers cited >= than quantile")
 
+    if sys.argv[1] == "A":
+        dsets = adsets
+    elif sys.argv[1] == "B":
+        dsets = bdsets
+    else:
+        print("Expected A or B as unique argument!")
+        exit(1)
+
     # Prepare plots
     aggs = []
     for i, (dset, fname) in enumerate(dsets.items()):
+        print(f"Going into conference {fname}")
         aggs.append(load_bibs(fname, dset, i))
 
     # Save aggregated data to csv
     df = pd.concat(aggs, axis=1)
-    df.to_csv("aggs.csv")
+    df.to_csv(f"aggs-{sys.argv[1]}.csv")
 
     # Finalize plot
     plt.xticks(np.array(range(len(qpcts))) + ((len(dsets) - 1) * width) / 2,
