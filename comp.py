@@ -35,7 +35,13 @@ def load_bibs(fpath, dsname, ithbar):
     pcts = np.array([(100 * c / npaps) for c in counts])
     qs = np.array(range(len(qpcts))) + (ithbar * width)
 
+    # Add data to plot
     plt.bar(qs, pcts, width, label=f"{dsname}, #papers={npaps}")
+
+    # Return the aggreagated information: mean and median per year
+    df = df.groupby(df["Year"]).agg({"Cited by": ["mean", "median"]})
+    df.columns = [dsname + "_" + col[1] for col in df.columns]
+    return df
 
 
 if __name__ == "__main__":
@@ -45,9 +51,15 @@ if __name__ == "__main__":
     plt.ylabel("Percentage of papers cited >= than quantile")
 
     # Prepare plots
+    aggs = []
     for i, (dset, fname) in enumerate(dsets.items()):
-        load_bibs(fname, dset, i)
+        aggs.append(load_bibs(fname, dset, i))
 
+    # Save aggregated data to csv
+    df = pd.concat(aggs, axis=1)
+    df.to_csv("aggs.csv")
+
+    # Finalize plot
     plt.xticks(np.array(range(len(qpcts))) + ((len(dsets) - 1) * width) / 2,
                [str(p * 100) for p in qpcts])
     plt.legend(loc="best")
