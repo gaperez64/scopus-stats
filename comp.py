@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 
-years = [2018, 2019, 2020]
+years = [2020, 2021, 2022]
 # A conferences
 adsets = {"QEST": "qest-scopus.csv",
           "FORMATS": "formats-scopus.csv",
