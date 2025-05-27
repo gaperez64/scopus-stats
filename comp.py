@@ -9,7 +9,8 @@ import pandas as pd
 
 years = [2020, 2021, 2022]
 # A conferences
-adsets = {"QEST": "qest-scopus.csv",
+adsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
+          "QEST": "qest-scopus.csv",
           "FORMATS": "formats-scopus.csv",
           "CONCUR": "concur-scopus.csv",
           "FM": "fm-scopus.csv",
@@ -18,8 +19,10 @@ adsets = {"QEST": "qest-scopus.csv",
           "FOSSCAS": "fossacs-scopus.csv",
           "SAT": "sat-scopus.csv"}
 # B conferences
-bdsets = {"QEST": "qest-scopus.csv",
+bdsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
+          "QEST": "qest-scopus.csv",
           "FORMATS": "formats-scopus.csv",
+          "MASCOTS": "mascots-scopus.csv",
           "CSL": "csl-scopus.csv",  # "LPAR": "lpar-scopus.csv",
           "ATVA": "atva-scopus.csv",
           "FMCAD": "fmcad-scopus.csv",
