@@ -23,7 +23,7 @@ def load_bibs(fpath):
     for low, up in zip(qs, ups):
         print(f"low = {low}, up = {up}")
         band = df.loc[(df["Cited by"] >= low) &
-                      (df["Cited by"] <= up)]
+                      (df["Cited by"] < up)]
         counts.append(len(band.index))
     print(f"Papers per quant = {counts}")
     pcts = np.array([(100 * c / npaps) for c in counts])
