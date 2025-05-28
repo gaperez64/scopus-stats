@@ -16,7 +16,7 @@ adsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
           "FM": "fm-scopus.csv",
           "IJCAR": "ijcar-scopus.csv",
           "TACAS": "tacas-scopus.csv",
-          "FOSSCAS": "fossacs-scopus.csv",
+          "FOSSACS": "fossacs-scopus.csv",
           "SAT": "sat-scopus.csv"}
 # B conferences
 bdsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
