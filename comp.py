@@ -10,8 +10,8 @@ import pandas as pd
 years = [2020, 2021, 2022]
 # A conferences
 adsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
-          "QEST": "qest-scopus.csv",
-          "FORMATS": "formats-scopus.csv",
+          # "QEST": "qest-scopus.csv",
+          # "FORMATS": "formats-scopus.csv",
           "CONCUR": "concur-scopus.csv",
           "FM": "fm-scopus.csv",
           "IJCAR": "ijcar-scopus.csv",
@@ -20,8 +20,8 @@ adsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
           "SAT": "sat-scopus.csv"}
 # B conferences
 bdsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
-          "QEST": "qest-scopus.csv",
-          "FORMATS": "formats-scopus.csv",
+          # "QEST": "qest-scopus.csv",
+          # "FORMATS": "formats-scopus.csv",
           "MASCOTS": "mascots-scopus.csv",
           "CSL": "csl-scopus.csv",  # "LPAR": "lpar-scopus.csv",
           "ATVA": "atva-scopus.csv",
@@ -48,23 +48,23 @@ def load_bibs(fpath, dsname, ithbar):
         band = df.loc[(df["Cited by"] >= low)]
         counts.append(len(band.index))
     print(f"Papers per quant = {counts}")
-    pcts = np.array([(100 * c / npaps) for c in counts])
+    pcts = np.array(counts)  # [(100 * c / npaps) for c in counts])
     qs = np.array(range(len(qpcts))) + (ithbar * width)
 
     # Add data to plot
     plt.bar(qs, pcts, width, label=f"{dsname}, #papers={npaps}")
 
     # Return the aggreagated information: mean and median per year
-    df = df.groupby(df["Year"]).agg({"Cited by": ["mean", "median"]})
-    df.columns = [dsname + "_" + col[1] for col in df.columns]
-    return df
+    # df = df.groupby(df["Year"]).agg({"Cited by": ["mean", "median"]})
+    # df.columns = [dsname + "_" + col[1] for col in df.columns]
+    return df["Cited by"].to_list()
 
 
 if __name__ == "__main__":
     assert len(sys.argv) == 2
-    plt.title(f"Citations for years={years}")
+    plt.title(f"Cited papers for years={years}")
     plt.xlabel("Top percentiles")
-    plt.ylabel("Percentage of papers cited >= than quantile")
+    plt.ylabel("Papers cited >= than quantile")
 
     if sys.argv[1] == "A":
         dsets = adsets
@@ -81,11 +81,22 @@ if __name__ == "__main__":
         aggs.append(load_bibs(fname, dset, i))
 
     # Save aggregated data to csv
-    df = pd.concat(aggs, axis=1)
-    df.to_csv(f"aggs-{sys.argv[1]}.csv")
+    # df = pd.concat(aggs, axis=1)
+    # df.to_csv(f"aggs-{sys.argv[1]}.csv")
 
     # Finalize plot
     plt.xticks(np.array(range(len(qpcts))) + ((len(dsets) - 1) * width) / 2,
                [str(p * 100) for p in qpcts])
     plt.legend(loc="best")
+    plt.show()
+
+    # Boxplot graph now
+    fig, ax = plt.subplots()
+    plt.title(f"Citations for years={years}")
+    plt.ylabel("Citations per paper")
+    plt.yscale("log")
+    ax.boxplot(aggs, notch=True)
+    ax.set_xticklabels([dset for dset, _ in dsets.items()],
+                       rotation=20)
+
     plt.show()
