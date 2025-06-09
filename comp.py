@@ -17,7 +17,14 @@ adsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
           "IJCAR": "ijcar-scopus.csv",
           "TACAS": "tacas-scopus.csv",
           "FOSSACS": "fossacs-scopus.csv",
-          "SAT": "sat-scopus.csv"}
+          "SAT": "sat-scopus.csv",
+          "ICALP": "icalp-scopus.csv",
+          "ICDCS": "icdcs-scopus.csv",
+          "ICST": "icst-scopus.csv",
+          "ICWSM": "icwsm-scopus.csv",
+          "ISSRE": "issre-scopus.csv",
+          "MFCS": "mfcs-scopus.csv",
+          "STACS": "stacs-scopus.csv"}
 # B conferences
 bdsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
           # "QEST": "qest-scopus.csv",
@@ -26,9 +33,26 @@ bdsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
           "CSL": "csl-scopus.csv",  # "LPAR": "lpar-scopus.csv",
           "ATVA": "atva-scopus.csv",
           "FMCAD": "fmcad-scopus.csv",
-          "VMCAI": "vmcai-scopus.csv"}
+          "VMCAI": "vmcai-scopus.csv",
+          "AiML": "aiml-scopus.csv",
+          "ARES": "ares-scopus.csv",
+          "FCT": "fct-scopus.csv",
+          "FSCD": "fscd-scopus.csv",
+          "ICPE": "icpe-scopus.csv",
+          "IFM": "ifm-scopus.csv",
+          "ILP": "ilp-scopus.csv",
+          "ISPASS": "ispass-scopus.csv",
+          "MFPS": "mfps-scopus.csv",
+          "PetriNets": "pn-scopus.csv",
+          "RCIS": "rcis-scopus.csv",
+          "RV": "rv-scopus.csv",
+          "SAGT": "sagt-scopus.csv",
+          "SEFM": "sefm-scopus.csv",
+          "SRDS": "srds-scopus.csv",
+          "WADS": "wads-scopus.csv",
+          "WALCOM": "walcom-scopus.csv"}
 qpcts = [.05, .10, .25, .50]
-width = 0.8 / 8  # len(dsets)
+width = 0.8 / 20  # len(dsets)
 
 
 def load_bibs(fpath, dsname, ithbar):
@@ -62,10 +86,6 @@ def load_bibs(fpath, dsname, ithbar):
 
 if __name__ == "__main__":
     assert len(sys.argv) == 2
-    plt.title(f"Cited papers for years={years}")
-    plt.xlabel("Top percentiles")
-    plt.ylabel("Papers cited >= than quantile")
-
     if sys.argv[1] == "A":
         dsets = adsets
     elif sys.argv[1] == "B":
@@ -74,7 +94,16 @@ if __name__ == "__main__":
         print("Expected A or B as unique argument!")
         exit(1)
 
-    # Prepare plots
+    cm = plt.get_cmap('gist_rainbow')
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    rainbow = [cm(1. * i / len(dsets)) for i in range(len(dsets))]
+    ax.set_prop_cycle('color', rainbow)
+    plt.title(f"Cited papers for years={years}")
+    plt.xlabel("Top percentiles")
+    plt.ylabel("Papers cited >= than quantile")
+
+    # Prepare citation-count plots
     aggs = []
     for i, (dset, fname) in enumerate(dsets.items()):
         print(f"Going into conference {fname}")
@@ -97,6 +126,6 @@ if __name__ == "__main__":
     plt.yscale("log")
     ax.boxplot(aggs, notch=True)
     ax.set_xticklabels([dset for dset, _ in dsets.items()],
-                       rotation=20)
+                       rotation=30)
 
     plt.show()
