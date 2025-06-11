@@ -93,7 +93,7 @@ def load_bibs(fpath, dsname, ithbar, hidx=False):
         band = df.loc[(df[kcol] >= low)]
         counts.append(len(band.index))
     print(f"Papers per quant = {counts}")
-    pcts = np.array(counts)  # [(100 * c / npaps) for c in counts])
+    pcts = np.array([(100 * c / npaps) for c in counts])
     qs = np.array(range(len(qpcts))) + (ithbar * width)
 
     # Add data to plot
@@ -121,9 +121,9 @@ if __name__ == "__main__":
     ax = fig.add_subplot(111)
     rainbow = [cm(1. * i / len(dsets)) for i in range(len(dsets))]
     ax.set_prop_cycle('color', rainbow)
-    plt.title(f"Cited papers for years={years}")
-    plt.xlabel("Top percentiles")
-    plt.ylabel("Papers cited >= than quantile")
+    #plt.title(f"Cited papers for years={years}")
+    #plt.xlabel("Top percentiles")
+    plt.ylabel("% of papers cited >= than quantile")
 
     # Prepare citation-count plots
     aggs = []
@@ -140,6 +140,7 @@ if __name__ == "__main__":
                [str(p * 100) for p in qpcts])
     plt.legend(loc="best")
     plt.show()
+    exit(0)
 
     # Boxplot graph now
     fig, ax = plt.subplots()

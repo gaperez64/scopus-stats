@@ -16,6 +16,11 @@ bdsets = {"QEST+FORMATS": "qest+formats-scopus.csv",
 confs = sorted(bdsets.keys())
 width = 1 / 3  # len(dsets)
 ori_df = pd.read_csv("papers.csv").sort_values(by=["Conference"])
+ori_df["Acc"] = ori_df.apply(
+    lambda row: 100 * int(row["Published"]) / int(row["Submissions"])
+                if int(row["Submissions"]) != 0 else 0,
+    axis=1)
+print(ori_df.loc[ori_df["Acc"] != 0].groupby("Conference").mean())
 
 
 def load_bibs(year, ithbar, fig, ax):
