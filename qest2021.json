@@ -1,0 +1,182 @@
+{
+"result":{
+"query":":facetid:toc:\"db/conf/qest/qest2021.bht\"",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"0.82"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"25",
+"@dc":"25",
+"@oc":"25",
+"@id":"48530585",
+"text":":facetid:toc:db/conf/qest/qest2021.bht"
+}
+},
+"hits":{
+"@total":"25",
+"@computed":"25",
+"@sent":"25",
+"@first":"0",
+"hit":[{
+"@score":"1",
+"@id":"2105330",
+"info":{"authors":{"author":[{"@pid":"283/4444","text":"Maryam Akbari-Moghaddam"},{"@pid":"80/1851","text":"Douglas G. Down"}]},"title":"SEH: Size Estimate Hedging for Single-Server Queues.","venue":"QEST","pages":"168-185","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/Akbari-Moghaddam21","doi":"10.1007/978-3-030-85172-9_9","ee":"https://doi.org/10.1007/978-3-030-85172-9_9","url":"https://dblp.org/rec/conf/qest/Akbari-Moghaddam21"},
+"url":"URL#2105330"
+},
+{
+"@score":"1",
+"@id":"2105331",
+"info":{"authors":{"author":[{"@pid":"185/1334","text":"Michael Backenköhler"},{"@pid":"32/1171","text":"Luca Bortolussi"},{"@pid":"202/2238","text":"Gerrit Großmann"},{"@pid":"04/6065","text":"Verena Wolf"}]},"title":"Abstraction-Guided Truncations for Stationary Distributions of Markov Population Models.","venue":"QEST","pages":"351-371","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/BackenkohlerBGW21","doi":"10.1007/978-3-030-85172-9_19","ee":"https://doi.org/10.1007/978-3-030-85172-9_19","url":"https://dblp.org/rec/conf/qest/BackenkohlerBGW21"},
+"url":"URL#2105331"
+},
+{
+"@score":"1",
+"@id":"2105332",
+"info":{"authors":{"author":[{"@pid":"157/8007","text":"Carlos E. Budde"},{"@pid":"150/0050","text":"Christina Kolb"},{"@pid":"20/3901","text":"Mariëlle Stoelinga"}]},"title":"Attack Trees vs. Fault Trees: Two Sides of the Same Coin from Different Currencies.","venue":"QEST","pages":"457-467","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/BuddeKS21","doi":"10.1007/978-3-030-85172-9_24","ee":"https://doi.org/10.1007/978-3-030-85172-9_24","url":"https://dblp.org/rec/conf/qest/BuddeKS21"},
+"url":"URL#2105332"
+},
+{
+"@score":"1",
+"@id":"2105333",
+"info":{"authors":{"author":[{"@pid":"194/2532","text":"Damien Busatto-Gaston"},{"@pid":"01/8207-2","text":"Debraj Chakraborty 0002"},{"@pid":"99/5560","text":"Shibashis Guha"},{"@pid":"135/6266","text":"Guillermo A. Pérez 0001"},{"@pid":"05/4174","text":"Jean-François Raskin"}]},"title":"Safe Learning for Near-Optimal Scheduling.","venue":"QEST","pages":"235-254","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/Busatto-GastonC21","doi":"10.1007/978-3-030-85172-9_13","ee":"https://doi.org/10.1007/978-3-030-85172-9_13","url":"https://dblp.org/rec/conf/qest/Busatto-GastonC21"},
+"url":"URL#2105333"
+},
+{
+"@score":"1",
+"@id":"2105334",
+"info":{"authors":{"author":[{"@pid":"c/LucaCardelli","text":"Luca Cardelli"},{"@pid":"94/5421","text":"Radu Grosu"},{"@pid":"l/KimGuldstrandLarsen","text":"Kim G. Larsen"},{"@pid":"71/5436","text":"Mirco Tribastone"},{"@pid":"117/9987","text":"Max Tschaikowski"},{"@pid":"23/8526","text":"Andrea Vandin"}]},"title":"Lumpability for Uncertain Continuous-Time Markov Chains.","venue":"QEST","pages":"391-409","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/CardelliGLTTV21","doi":"10.1007/978-3-030-85172-9_21","ee":"https://doi.org/10.1007/978-3-030-85172-9_21","url":"https://dblp.org/rec/conf/qest/CardelliGLTTV21"},
+"url":"URL#2105334"
+},
+{
+"@score":"1",
+"@id":"2105335",
+"info":{"authors":{"author":[{"@pid":"77/5805","text":"Laura Carnevali"},{"@pid":"07/165","text":"Marco Paolieri"},{"@pid":"290/3983","text":"Riccardo Reali"},{"@pid":"50/3792","text":"Enrico Vicario"}]},"title":"Compositional Safe Approximation of Response Time Distribution of Complex Workflows.","venue":"QEST","pages":"83-104","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/CarnevaliPRV21","doi":"10.1007/978-3-030-85172-9_5","ee":"https://doi.org/10.1007/978-3-030-85172-9_5","url":"https://dblp.org/rec/conf/qest/CarnevaliPRV21"},
+"url":"URL#2105335"
+},
+{
+"@score":"1",
+"@id":"2105336",
+"info":{"authors":{"author":[{"@pid":"69/8814","text":"Bogdan Ghit"},{"@pid":"57/2116","text":"Asser N. Tantawi"}]},"title":"An Approximate Bribe Queueing Model for Bid Advising in Cloud Spot Markets.","venue":"QEST","pages":"186-194","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/GhitT21","doi":"10.1007/978-3-030-85172-9_10","ee":"https://doi.org/10.1007/978-3-030-85172-9_10","url":"https://dblp.org/rec/conf/qest/GhitT21"},
+"url":"URL#2105336"
+},
+{
+"@score":"1",
+"@id":"2105337",
+"info":{"authors":{"author":[{"@pid":"05/2603","text":"Marco Gribaudo"},{"@pid":"05/1559","text":"Mauro Iacono"},{"@pid":"61/6588","text":"Daniele Manini"}]},"title":"Simulation of N-Dimensional Second-Order Fluid Models with Different Absorbing, Reflecting and Mixed Barriers.","venue":"QEST","pages":"276-292","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/GribaudoIM21","doi":"10.1007/978-3-030-85172-9_15","ee":"https://doi.org/10.1007/978-3-030-85172-9_15","url":"https://dblp.org/rec/conf/qest/GribaudoIM21"},
+"url":"URL#2105337"
+},
+{
+"@score":"1",
+"@id":"2105338",
+"info":{"authors":{"author":[{"@pid":"267/0453","text":"Timo P. Gros"},{"@pid":"150/5955","text":"Daniel Höller"},{"@pid":"26/836","text":"Jörg Hoffmann 0001"},{"@pid":"199/2503","text":"Michaela Klauck"},{"@pid":"299/8253","text":"Hendrik Meerkamp"},{"@pid":"04/6065","text":"Verena Wolf"}]},"title":"DSMC Evaluation Stages: Fostering Robust and Safe Behavior in Deep Reinforcement Learning.","venue":"QEST","pages":"197-216","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/GrosHHKMW21","doi":"10.1007/978-3-030-85172-9_11","ee":"https://doi.org/10.1007/978-3-030-85172-9_11","url":"https://dblp.org/rec/conf/qest/GrosHHKMW21"},
+"url":"URL#2105338"
+},
+{
+"@score":"1",
+"@id":"2105339",
+"info":{"authors":{"author":[{"@pid":"259/9131","text":"Rebecca Haehn"},{"@pid":"a/ErikaAbraham","text":"Erika Ábrahám"},{"@pid":"194/2114","text":"Nils Nießen"}]},"title":"Symbolic Simulation of Railway Timetables Under Consideration of Stochastic Dependencies.","venue":"QEST","pages":"257-275","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/HaehnAN21","doi":"10.1007/978-3-030-85172-9_14","ee":"https://doi.org/10.1007/978-3-030-85172-9_14","url":"https://dblp.org/rec/conf/qest/HaehnAN21"},
+"url":"URL#2105339"
+},
+{
+"@score":"1",
+"@id":"2105340",
+"info":{"authors":{"author":[{"@pid":"89/7952","text":"Arnd Hartmanns"},{"@pid":"k/JoostPieterKatoen","text":"Joost-Pieter Katoen"},{"@pid":"299/8077","text":"Bram Kohlen"},{"@pid":"172/1443","text":"Jip Spel"}]},"title":"Tweaking the Odds in Probabilistic Timed Automata.","venue":"QEST","pages":"39-58","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/HartmannsKKS21","doi":"10.1007/978-3-030-85172-9_3","ee":"https://doi.org/10.1007/978-3-030-85172-9_3","url":"https://dblp.org/rec/conf/qest/HartmannsKKS21"},
+"url":"URL#2105340"
+},
+{
+"@score":"1",
+"@id":"2105341",
+"info":{"authors":{"author":{"@pid":"h/BRHaverkort","text":"Boudewijn R. Haverkort"}},"title":"Performance Evaluation: Model-Driven or Problem-Driven?","venue":"QEST","pages":"3-11","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/Haverkort21","doi":"10.1007/978-3-030-85172-9_1","ee":"https://doi.org/10.1007/978-3-030-85172-9_1","url":"https://dblp.org/rec/conf/qest/Haverkort21"},
+"url":"URL#2105341"
+},
+{
+"@score":"1",
+"@id":"2105342",
+"info":{"authors":{"author":[{"@pid":"273/8084","text":"Stefan Kaalen"},{"@pid":"98/1174","text":"Mattias Nyberg"},{"@pid":"299/8319","text":"Olle Mattsson"}]},"title":"Transient Analysis of Hierarchical Semi-Markov Process Models with Tool Support in Stateflow.","venue":"QEST","pages":"105-126","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/KaalenNM21","doi":"10.1007/978-3-030-85172-9_6","ee":"https://doi.org/10.1007/978-3-030-85172-9_6","url":"https://dblp.org/rec/conf/qest/KaalenNM21"},
+"url":"URL#2105342"
+},
+{
+"@score":"1",
+"@id":"2105343",
+"info":{"authors":{"author":[{"@pid":"294/1140","text":"Grzegorz Kielanski"},{"@pid":"h/BennyVanHoudt","text":"Benny Van Houdt"}]},"title":"Performance Analysis of Work Stealing Strategies in Large Scale Multi-threaded Computing.","venue":"QEST","pages":"329-348","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/KielanskiH21","doi":"10.1007/978-3-030-85172-9_18","ee":"https://doi.org/10.1007/978-3-030-85172-9_18","url":"https://dblp.org/rec/conf/qest/KielanskiH21"},
+"url":"URL#2105343"
+},
+{
+"@score":"1",
+"@id":"2105344",
+"info":{"authors":{"author":[{"@pid":"199/2503","text":"Michaela Klauck"},{"@pid":"h/HolgerHermanns","text":"Holger Hermanns"}]},"title":"A Modest Approach to Dynamic Heuristic Search in Probabilistic Model Checking.","venue":"QEST","pages":"15-38","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/KlauckH21","doi":"10.1007/978-3-030-85172-9_2","ee":"https://doi.org/10.1007/978-3-030-85172-9_2","url":"https://dblp.org/rec/conf/qest/KlauckH21"},
+"url":"URL#2105344"
+},
+{
+"@score":"1",
+"@id":"2105345",
+"info":{"authors":{"author":{"@pid":"155/5136","text":"Engel Lefaucheux"}},"title":"Accurate Approximate Diagnosis of (Controllable) Stochastic Systems.","venue":"QEST","pages":"413-434","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/Lefaucheux21","doi":"10.1007/978-3-030-85172-9_22","ee":"https://doi.org/10.1007/978-3-030-85172-9_22","url":"https://dblp.org/rec/conf/qest/Lefaucheux21"},
+"url":"URL#2105345"
+},
+{
+"@score":"1",
+"@id":"2105346",
+"info":{"authors":{"author":[{"@pid":"p/CarlaPiazza","text":"Carla Piazza"},{"@pid":"r/SRossi","text":"Sabina Rossi"}]},"title":"Reasoning About Proportional Lumpability.","venue":"QEST","pages":"372-390","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/PiazzaR21","doi":"10.1007/978-3-030-85172-9_20","ee":"https://doi.org/10.1007/978-3-030-85172-9_20","url":"https://dblp.org/rec/conf/qest/PiazzaR21"},
+"url":"URL#2105346"
+},
+{
+"@score":"1",
+"@id":"2105347",
+"info":{"authors":{"author":[{"@pid":"183/6448","text":"Paul Piho"},{"@pid":"h/JaneHillston","text":"Jane Hillston"}]},"title":"Active and Sparse Methods in Smoothed Model Checking.","venue":"QEST","pages":"217-234","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/PihoH21","doi":"10.1007/978-3-030-85172-9_12","ee":"https://doi.org/10.1007/978-3-030-85172-9_12","url":"https://dblp.org/rec/conf/qest/PihoH21"},
+"url":"URL#2105347"
+},
+{
+"@score":"1",
+"@id":"2105348",
+"info":{"authors":{"author":[{"@pid":"205/3771","text":"Carina Pilch"},{"@pid":"160/7823","text":"Stefan Schupp"},{"@pid":"r/AnneRemke","text":"Anne Remke"}]},"title":"Optimizing Reachability Probabilities for a Restricted Class of Stochastic Hybrid Automata via Flowpipe-Construction.","venue":"QEST","pages":"435-456","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/PilchSR21","doi":"10.1007/978-3-030-85172-9_23","ee":"https://doi.org/10.1007/978-3-030-85172-9_23","url":"https://dblp.org/rec/conf/qest/PilchSR21"},
+"url":"URL#2105348"
+},
+{
+"@score":"1",
+"@id":"2105349",
+"info":{"authors":{"author":[{"@pid":"232/5373","text":"Michael J. Rausch"},{"@pid":"s/WilliamHSanders","text":"William H. Sanders"}]},"title":"Evaluating the Effectiveness of Metamodeling in Emulating Quantitative Models.","venue":"QEST","pages":"127-145","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/RauschS21","doi":"10.1007/978-3-030-85172-9_7","ee":"https://doi.org/10.1007/978-3-030-85172-9_7","url":"https://dblp.org/rec/conf/qest/RauschS21"},
+"url":"URL#2105349"
+},
+{
+"@score":"1",
+"@id":"2105350",
+"info":{"authors":{"author":[{"@pid":"239/3023","text":"Alexander Scheffler"},{"@pid":"64/9385","text":"Steffen Bondorf"}]},"title":"Network Calculus for Bounding Delays in Feedforward Networks of FIFO Queueing Systems.","venue":"QEST","pages":"149-167","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/SchefflerB21","doi":"10.1007/978-3-030-85172-9_8","ee":"https://doi.org/10.1007/978-3-030-85172-9_8","url":"https://dblp.org/rec/conf/qest/SchefflerB21"},
+"url":"URL#2105350"
+},
+{
+"@score":"1",
+"@id":"2105351",
+"info":{"authors":{"author":[{"@pid":"273/3924","text":"Samuel Teuber"},{"@pid":"170/0399","text":"Alexander Weigl"}]},"title":"Quantifying Software Reliability via Model-Counting.","venue":"QEST","pages":"59-79","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/TeuberW21","doi":"10.1007/978-3-030-85172-9_4","ee":"https://doi.org/10.1007/978-3-030-85172-9_4","url":"https://dblp.org/rec/conf/qest/TeuberW21"},
+"url":"URL#2105351"
+},
+{
+"@score":"1",
+"@id":"2105352",
+"info":{"authors":{"author":[{"@pid":"221/5863","text":"Runan Wang"},{"@pid":"16/2365","text":"Giuliano Casale"},{"@pid":"40/8264","text":"Antonio Filieri"}]},"title":"Service Demand Distribution Estimation for Microservices Using Markovian Arrival Processes.","venue":"QEST","pages":"310-328","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/WangCF21","doi":"10.1007/978-3-030-85172-9_17","ee":"https://doi.org/10.1007/978-3-030-85172-9_17","url":"https://dblp.org/rec/conf/qest/WangCF21"},
+"url":"URL#2105352"
+},
+{
+"@score":"1",
+"@id":"2105353",
+"info":{"authors":{"author":{"@pid":"w/CMurrayWoodside","text":"C. Murray Woodside"}},"title":"Queue Response Times with Server Speed Controlled by Measured Utilizations.","venue":"QEST","pages":"295-309","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/Woodside21","doi":"10.1007/978-3-030-85172-9_16","ee":"https://doi.org/10.1007/978-3-030-85172-9_16","url":"https://dblp.org/rec/conf/qest/Woodside21"},
+"url":"URL#2105353"
+},
+{
+"@score":"1",
+"@id":"2135631",
+"info":{"authors":{"author":[{"@pid":"19/3904","text":"Alessandro Abate"},{"@pid":"73/6512","text":"Andrea Marin"}]},"title":"Quantitative Evaluation of Systems - 18th International Conference, QEST 2021, Paris, France, August 23-27, 2021, Proceedings","venue":["QEST","Lecture Notes in Computer Science"],"volume":"12846","publisher":"Springer","year":"2021","type":"Editorship","key":"conf/qest/2021","doi":"10.1007/978-3-030-85172-9","ee":"https://doi.org/10.1007/978-3-030-85172-9","url":"https://dblp.org/rec/conf/qest/2021"},
+"url":"URL#2135631"
+}
+]
+}
+}
+}

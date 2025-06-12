@@ -1,0 +1,158 @@
+{
+"result":{
+"query":":facetid:toc:\"db/conf/qest/qest2020.bht\"",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"85.00"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"21",
+"@dc":"21",
+"@oc":"21",
+"@id":"48530584",
+"text":":facetid:toc:db/conf/qest/qest2020.bht"
+}
+},
+"hits":{
+"@total":"21",
+"@computed":"21",
+"@sent":"21",
+"@first":"0",
+"hit":[{
+"@score":"1",
+"@id":"2551098",
+"info":{"authors":{"author":[{"@pid":"185/1334","text":"Michael Backenköhler"},{"@pid":"32/1171","text":"Luca Bortolussi"},{"@pid":"04/6065","text":"Verena Wolf"}]},"title":"Bounding Mean First Passage Times in Population Continuous-Time Markov Chains.","venue":"QEST","pages":"155-174","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/BackenkohlerBW20","doi":"10.1007/978-3-030-59854-9_13","ee":"https://doi.org/10.1007/978-3-030-59854-9_13","url":"https://dblp.org/rec/conf/qest/BackenkohlerBW20"},
+"url":"URL#2551098"
+},
+{
+"@score":"1",
+"@id":"2551099",
+"info":{"authors":{"author":{"@pid":"84/594","text":"Marco Bernardo 0001"}},"title":"Alternative Characterizations of Probabilistic Trace Equivalences on Coherent Resolutions of Nondeterminism.","venue":"QEST","pages":"35-53","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/Bernardo20","doi":"10.1007/978-3-030-59854-9_5","ee":"https://doi.org/10.1007/978-3-030-59854-9_5","url":"https://dblp.org/rec/conf/qest/Bernardo20"},
+"url":"URL#2551099"
+},
+{
+"@score":"1",
+"@id":"2551100",
+"info":{"authors":{"author":[{"@pid":"00/11282","text":"Andreas Blume"},{"@pid":"b/PeterBuchholz","text":"Peter Buchholz 0001"},{"@pid":"277/6740","text":"Clara Scherbaum"}]},"title":"Markovian Arrival Processes in Multi-dimensions.","venue":"QEST","pages":"175-192","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/BlumeBS20","doi":"10.1007/978-3-030-59854-9_14","ee":"https://doi.org/10.1007/978-3-030-59854-9_14","url":"https://dblp.org/rec/conf/qest/BlumeBS20"},
+"url":"URL#2551100"
+},
+{
+"@score":"1",
+"@id":"2551101",
+"info":{"authors":{"author":{"@pid":"b/MBoreale","text":"Michele Boreale"}},"title":"Automatic Pre- and Postconditions for Partial Differential Equations.","venue":"QEST","pages":"193-210","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/Boreale20","doi":"10.1007/978-3-030-59854-9_15","ee":"https://doi.org/10.1007/978-3-030-59854-9_15","url":"https://dblp.org/rec/conf/qest/Boreale20"},
+"url":"URL#2551101"
+},
+{
+"@score":"1",
+"@id":"2551102",
+"info":{"authors":{"author":[{"@pid":"157/8007","text":"Carlos E. Budde"},{"@pid":"153/2435","text":"Enno Ruijters"},{"@pid":"20/3901","text":"Mariëlle Stoelinga"}]},"title":"The Dynamic Fault Tree Rare Event Simulator.","venue":"QEST","pages":"233-238","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/BuddeRS20","doi":"10.1007/978-3-030-59854-9_17","ee":"https://doi.org/10.1007/978-3-030-59854-9_17","url":"https://dblp.org/rec/conf/qest/BuddeRS20"},
+"url":"URL#2551102"
+},
+{
+"@score":"1",
+"@id":"2551103",
+"info":{"authors":{"author":[{"@pid":"236/5134","text":"Victor Cook"},{"@pid":"211/8364","text":"Christina L. Peterson"},{"@pid":"238/0198","text":"Zachary Painter"},{"@pid":"52/6282","text":"Damian Dechev"}]},"title":"Entropy Measurement of Concurrent Disorder.","venue":"QEST","pages":"239-257","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/CookPPD20","doi":"10.1007/978-3-030-59854-9_18","ee":"https://doi.org/10.1007/978-3-030-59854-9_18","url":"https://dblp.org/rec/conf/qest/CookPPD20"},
+"url":"URL#2551103"
+},
+{
+"@score":"1",
+"@id":"2551104",
+"info":{"authors":{"author":[{"@pid":"23/4832","text":"Olivia Das"},{"@pid":"26/852","text":"Arindam Das"}]},"title":"CogQN: A Queueing Model that Captures Human Learning of the User Interfaces of Session-Based Systems.","venue":"QEST","pages":"137-143","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/DasD20","doi":"10.1007/978-3-030-59854-9_10","ee":"https://doi.org/10.1007/978-3-030-59854-9_10","url":"https://dblp.org/rec/conf/qest/DasD20"},
+"url":"URL#2551104"
+},
+{
+"@score":"1",
+"@id":"2551105",
+"info":{"authors":{"author":[{"@pid":"267/0453","text":"Timo P. Gros"},{"@pid":"150/5955","text":"Daniel Höller"},{"@pid":"26/836","text":"Jörg Hoffmann 0001"},{"@pid":"04/6065","text":"Verena Wolf"}]},"title":"Tracking the Race Between Deep Reinforcement Learning and Imitation Learning.","venue":"QEST","pages":"11-17","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/GrosHHW20","doi":"10.1007/978-3-030-59854-9_2","ee":"https://doi.org/10.1007/978-3-030-59854-9_2","url":"https://dblp.org/rec/conf/qest/GrosHHW20"},
+"url":"URL#2551105"
+},
+{
+"@score":"1",
+"@id":"2551106",
+"info":{"authors":{"author":[{"@pid":"202/2238","text":"Gerrit Großmann"},{"@pid":"185/1334","text":"Michael Backenköhler"},{"@pid":"04/6065","text":"Verena Wolf"}]},"title":"Importance of Interaction Structure and Stochasticity for Epidemic Spreading: A COVID-19 Case Study.","venue":"QEST","pages":"211-229","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/GrossmannBW20","doi":"10.1007/978-3-030-59854-9_16","ee":"https://doi.org/10.1007/978-3-030-59854-9_16","url":"https://dblp.org/rec/conf/qest/GrossmannBW20"},
+"url":"URL#2551106"
+},
+{
+"@score":"1",
+"@id":"2551107",
+"info":{"authors":{"author":[{"@pid":"167/1612","text":"Mojgan Kamali"},{"@pid":"k/JoostPieterKatoen","text":"Joost-Pieter Katoen"}]},"title":"Probabilistic Model Checking of AODV.","venue":"QEST","pages":"54-73","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/KamaliK20","doi":"10.1007/978-3-030-59854-9_6","ee":"https://doi.org/10.1007/978-3-030-59854-9_6","url":"https://dblp.org/rec/conf/qest/KamaliK20"},
+"url":"URL#2551107"
+},
+{
+"@score":"1",
+"@id":"2551108",
+"info":{"authors":{"author":[{"@pid":"k/MartaZKwiatkowska","text":"Marta Kwiatkowska"},{"@pid":"59/1659","text":"Gethin Norman"},{"@pid":"33/3095","text":"David Parker 0001"},{"@pid":"19/7786","text":"Gabriel Santos"}]},"title":"Multi-player Equilibria Verification for Concurrent Stochastic Games.","venue":"QEST","pages":"74-95","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/KwiatkowskaNPS20","doi":"10.1007/978-3-030-59854-9_7","ee":"https://doi.org/10.1007/978-3-030-59854-9_7","url":"https://dblp.org/rec/conf/qest/KwiatkowskaNPS20"},
+"url":"URL#2551108"
+},
+{
+"@score":"1",
+"@id":"2551109",
+"info":{"authors":{"author":[{"@pid":"73/6512","text":"Andrea Marin"},{"@pid":"r/SRossi","text":"Sabina Rossi"},{"@pid":"251/9395","text":"Carlo Zen"}]},"title":"A Matlab Toolkit for the Analysis of Two-Level Processor Sharing Queues.","venue":"QEST","pages":"144-147","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/MarinRZ20","doi":"10.1007/978-3-030-59854-9_11","ee":"https://doi.org/10.1007/978-3-030-59854-9_11","url":"https://dblp.org/rec/conf/qest/MarinRZ20"},
+"url":"URL#2551109"
+},
+{
+"@score":"1",
+"@id":"2551110",
+"info":{"authors":{"author":[{"@pid":"146/7859","text":"Kartik Palani"},{"@pid":"n/DavidMNicol","text":"David M. Nicol"}]},"title":"Hardening Critical Infrastructure Networks Against Attacker Reconnaissance.","venue":"QEST","pages":"258-275","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/PalaniN20","doi":"10.1007/978-3-030-59854-9_19","ee":"https://doi.org/10.1007/978-3-030-59854-9_19","url":"https://dblp.org/rec/conf/qest/PalaniN20"},
+"url":"URL#2551110"
+},
+{
+"@score":"1",
+"@id":"2551111",
+"info":{"authors":{"author":[{"@pid":"211/7586","text":"Kyriakos Polymenakos"},{"@pid":"175/9534","text":"Nikitas Rontsis"},{"@pid":"19/3904","text":"Alessandro Abate"},{"@pid":"64/1485","text":"Stephen J. Roberts"}]},"title":"SafePILCO: A Software Tool for Safe and Data-Efficient Policy Synthesis.","venue":"QEST","pages":"18-26","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/PolymenakosRAR20","doi":"10.1007/978-3-030-59854-9_3","ee":"https://doi.org/10.1007/978-3-030-59854-9_3","url":"https://dblp.org/rec/conf/qest/PolymenakosRAR20"},
+"url":"URL#2551111"
+},
+{
+"@score":"1",
+"@id":"2551112",
+"info":{"authors":{"author":[{"@pid":"232/5373","text":"Michael J. Rausch"},{"@pid":"s/WilliamHSanders","text":"William H. Sanders"}]},"title":"Sensitivity Analysis and Uncertainty Quantification of State-Based Discrete-Event Simulation Models Through a Stacked Ensemble of Metamodels.","venue":"QEST","pages":"276-293","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/RauschS20","doi":"10.1007/978-3-030-59854-9_20","ee":"https://doi.org/10.1007/978-3-030-59854-9_20","url":"https://dblp.org/rec/conf/qest/RauschS20"},
+"url":"URL#2551112"
+},
+{
+"@score":"1",
+"@id":"2551113",
+"info":{"authors":{"author":[{"@pid":"228/6969","text":"Denis Repin"},{"@pid":"277/6700","text":"Nhat-Huy Phung"},{"@pid":"74/255","text":"Tatjana Petrov"}]},"title":"StochNetV2: A Tool for Automated Deep Abstractions for Stochastic Reaction Networks.","venue":"QEST","pages":"27-32","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/RepinPP20","doi":"10.1007/978-3-030-59854-9_4","ee":"https://doi.org/10.1007/978-3-030-59854-9_4","url":"https://dblp.org/rec/conf/qest/RepinPP20"},
+"url":"URL#2551113"
+},
+{
+"@score":"1",
+"@id":"2551114",
+"info":{"authors":{"author":{"@pid":"01/5372","text":"Kizito Salako"}},"title":"Loss-Size and Reliability Trade-Offs Amongst Diverse Redundant Binary Classifiers.","venue":"QEST","pages":"96-114","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/Salako20","doi":"10.1007/978-3-030-59854-9_8","ee":"https://doi.org/10.1007/978-3-030-59854-9_8","url":"https://dblp.org/rec/conf/qest/Salako20"},
+"url":"URL#2551114"
+},
+{
+"@score":"1",
+"@id":"2551115",
+"info":{"authors":{"author":[{"@pid":"271/4397","text":"Bahare Salmani"},{"@pid":"k/JoostPieterKatoen","text":"Joost-Pieter Katoen"}]},"title":"Bayesian Inference by Symbolic Model Checking.","venue":"QEST","pages":"115-133","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/SalmaniK20","doi":"10.1007/978-3-030-59854-9_9","ee":"https://doi.org/10.1007/978-3-030-59854-9_9","url":"https://dblp.org/rec/conf/qest/SalmaniK20"},
+"url":"URL#2551115"
+},
+{
+"@score":"1",
+"@id":"2551116",
+"info":{"authors":{"author":{"@pid":"s/EvgeniaSmirni","text":"Evgenia Smirni"}},"title":"Machine Learning for Reliability Analysis of Large Scale Systems.","venue":"QEST","pages":"3-7","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/Smirni20","doi":"10.1007/978-3-030-59854-9_1","ee":"https://doi.org/10.1007/978-3-030-59854-9_1","url":"https://dblp.org/rec/conf/qest/Smirni20"},
+"url":"URL#2551116"
+},
+{
+"@score":"1",
+"@id":"2551117",
+"info":{"authors":{"author":[{"@pid":"136/1962","text":"Mehmet Akif Yazici"},{"@pid":"00/11469","text":"Tuan Phung-Duc"}]},"title":"M/M/1 Vacation Queue with Multiple Thresholds: A Fluid Analysis.","venue":"QEST","pages":"148-152","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/YaziciP20","doi":"10.1007/978-3-030-59854-9_12","ee":"https://doi.org/10.1007/978-3-030-59854-9_12","url":"https://dblp.org/rec/conf/qest/YaziciP20"},
+"url":"URL#2551117"
+},
+{
+"@score":"1",
+"@id":"2582058",
+"info":{"authors":{"author":[{"@pid":"05/2603","text":"Marco Gribaudo"},{"@pid":"71/928","text":"David N. Jansen"},{"@pid":"r/AnneRemke","text":"Anne Remke"}]},"title":"Quantitative Evaluation of Systems - 17th International Conference, QEST 2020, Vienna, Austria, August 31 - September 3, 2020, Proceedings","venue":["QEST","Lecture Notes in Computer Science"],"volume":"12289","publisher":"Springer","year":"2020","type":"Editorship","key":"conf/qest/2020","doi":"10.1007/978-3-030-59854-9","ee":"https://doi.org/10.1007/978-3-030-59854-9","url":"https://dblp.org/rec/conf/qest/2020"},
+"url":"URL#2582058"
+}
+]
+}
+}
+}

@@ -1,0 +1,39 @@
+{title}
+---
+Bounding Mean First Passage Times in Population Continuous-Time Markov Chains.
+Alternative Characterizations of Probabilistic Trace Equivalences on Coherent Resolutions of Nondeterminism.
+Markovian Arrival Processes in Multi-dimensions.
+Automatic Pre- and Postconditions for Partial Differential Equations.
+The Dynamic Fault Tree Rare Event Simulator.
+Entropy Measurement of Concurrent Disorder.
+CogQN: A Queueing Model that Captures Human Learning of the User Interfaces of Session-Based Systems.
+Tracking the Race Between Deep Reinforcement Learning and Imitation Learning.
+Importance of Interaction Structure and Stochasticity for Epidemic Spreading: A COVID-19 Case Study.
+Probabilistic Model Checking of AODV.
+Multi-player Equilibria Verification for Concurrent Stochastic Games.
+A Matlab Toolkit for the Analysis of Two-Level Processor Sharing Queues.
+Hardening Critical Infrastructure Networks Against Attacker Reconnaissance.
+SafePILCO: A Software Tool for Safe and Data-Efficient Policy Synthesis.
+Sensitivity Analysis and Uncertainty Quantification of State-Based Discrete-Event Simulation Models Through a Stacked Ensemble of Metamodels.
+StochNetV2: A Tool for Automated Deep Abstractions for Stochastic Reaction Networks.
+Loss-Size and Reliability Trade-Offs Amongst Diverse Redundant Binary Classifiers.
+Bayesian Inference by Symbolic Model Checking.
+Machine Learning for Reliability Analysis of Large Scale Systems.
+M/M/1 Vacation Queue with Multiple Thresholds: A Fluid Analysis.
+Computation of the Transient in Max-Plus Linear Systems via SMT-Solving.
+Probabilistic Guarantees for Safe Deep Reinforcement Learning.
+Learning Specifications for Labelled Patterns.
+On Subgame Perfect Equilibria in Turn-Based Reachability Timed Games.
+Computing Maximally-Permissive Strategies in Acyclic Timed Automata.
+Guarded Autonomous Transitions Increase Conciseness and Expressiveness of Timed Automata.
+Weakness Monitors for Fail-Aware Systems.
+Deep Reinforcement Learning with Temporal Logics.
+Active Learning of Timed Automata with Unobservable Resets.
+Incremental Methods for Checking Real-Time Consistency.
+Embedding Online Runtime Verification for Fault Disambiguation on Robonaut2.
+Dynamic Causes for the Violation of Timed Reachability Properties.
+Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling.
+Backward Symbolic Optimal Reachability in Weighted Timed Automata.
+Clairvoyant Monitoring for Signal Temporal Logic.
+On the Semantics of Polychronous Polytimed Specifications.
+Certifying Emptiness of Timed Büchi Automata.

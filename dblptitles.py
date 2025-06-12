@@ -17,4 +17,9 @@ def load_proc(fname):
 
 if __name__ == "__main__":
     assert len(sys.argv) == 2
-    load_proc(sys.argv[1])
+    print("{title}")
+    print("---")
+    year = sys.argv[1]
+    for fname in [f"{conf}{year}.json"
+                  for conf in ["qest", "formats"]]:
+        load_proc(fname)

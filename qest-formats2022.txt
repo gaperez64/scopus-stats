@@ -1,0 +1,38 @@
+{title}
+---
+Eulero: A Tool for Quantitative Modeling and Evaluation of Complex Workflows.
+LN: A Meta-solver for Layered Queueing Network Analysis.
+Analysis of an Electric Vehicle Charging System Along a Highway.
+Comparing Statistical and Analytical Routing Approaches for Delay-Tolerant Networks.
+Stability Analysis of Planar Probabilistic Piecewise Constant Derivative Systems.
+LCRL: Certified Policy Synthesis via Logically-Constrained Reinforcement Learning.
+Monte Carlo Tree Search for Priced Timed Automata.
+End-to-End Statistical Model Checking for Parametric ODE Models.
+Distribution Estimation for Probabilistic Loops.
+Moment-Based Invariants for Probabilistic Loops with Non-polynomial Assignments.
+A Logical Framework for Reasoning About Local and Global Properties of Collective Systems.
+Mirrors and Memory in Quantum Automata.
+Jump Longer to Jump Less: Improving Dynamic Boundary Projection with h-Scaling.
+Preference-Aware Computation Offloading for IoT in Multi-access Edge Computing Using Probabilistic Model Checking.
+An Automated Quantitative Information Flow Analysis for Concurrent Programs.
+Rate Lifting for Stochastic Process Algebra - Exploiting Structural Properties -.
+Verifier&apos;s Dilemma in Ethereum Blockchain: A Quantitative Analysis.
+POMDP Controllers with Optimal Budget.
+An Algorithm for the Formal Reduction of Differential Equations as Over-Approximations.
+Efficient Convex Zone Merging in Parametric Timed Automata.
+Zone-Based Verification of Timed Automata: Extrapolations, Simulations and What Next?
+An STL-Based Formulation of Resilience in Cyber-Physical Systems.
+Model Checking for Entanglement Swapping.
+On Neural Network Equivalence Checking Using SMT Solvers.
+Non-blind Strategies in Timed Network Congestion Games.
+Monitoring Timed Properties (Revisited).
+Bounded Delay Timed Channel Coding.
+Classification of Driving Behaviors Using STL Formulas: A Comparative Study.
+Reachability Analysis of a General Class of Neural Ordinary Differential Equations.
+Algebraic Model Checking for Discrete Linear Dynamical Systems.
+Timed Games with Bounded Window Parity Objectives.
+Robustly Complete Finite-State Abstractions for Verification of Stochastic Systems.
+Learning that Grid-Convenience Does Not Hurt Resilience in the Presence of Uncertainty.
+Robust Event-Driven Interactions in Cooperative Multi-agent Learning.
+MITL Verification Under Timing Uncertainty.
+Neural Network Repair with Reachability Analysis.

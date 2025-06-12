@@ -1,0 +1,140 @@
+{
+"result":{
+"query":":facetid:toc:\"db/conf/formats/formats2022.bht\"",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"0.65"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"18",
+"@dc":"18",
+"@oc":"18",
+"@id":"48503654",
+"text":":facetid:toc:db/conf/formats/formats2022.bht"
+}
+},
+"hits":{
+"@total":"18",
+"@computed":"18",
+"@sent":"18",
+"@first":"0",
+"hit":[{
+"@score":"1",
+"@id":"1541211",
+"info":{"authors":{"author":[{"@pid":"49/2992","text":"Étienne André"},{"@pid":"295/8756","text":"Dylan Marinho"},{"@pid":"p/LaurePetrucci","text":"Laure Petrucci"},{"@pid":"p/JvdPol","text":"Jaco van de Pol"}]},"title":"Efficient Convex Zone Merging in Parametric Timed Automata.","venue":"FORMATS","pages":"200-218","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/AndreMPP22","doi":"10.1007/978-3-031-15839-1_12","ee":"https://doi.org/10.1007/978-3-031-15839-1_12","url":"https://dblp.org/rec/conf/formats/AndreMPP22"},
+"url":"URL#1541211"
+},
+{
+"@score":"1",
+"@id":"1541212",
+"info":{"authors":{"author":[{"@pid":"b/PatriciaBouyer","text":"Patricia Bouyer"},{"@pid":"g/PaulGastin","text":"Paul Gastin"},{"@pid":"51/345","text":"Frédéric Herbreteau"},{"@pid":"11/7805","text":"Ocan Sankur"},{"@pid":"86/8295","text":"B. Srivathsan"}]},"title":"Zone-Based Verification of Timed Automata: Extrapolations, Simulations and What Next?","venue":"FORMATS","pages":"16-42","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/BouyerGHSS22","doi":"10.1007/978-3-031-15839-1_2","ee":"https://doi.org/10.1007/978-3-031-15839-1_2","url":"https://dblp.org/rec/conf/formats/BouyerGHSS22"},
+"url":"URL#1541212"
+},
+{
+"@score":"1",
+"@id":"1541213",
+"info":{"authors":{"author":[{"@pid":"36/8493-1","text":"Hongkai Chen 0001"},{"@pid":"12/3912-1","text":"Shan Lin 0001"},{"@pid":"s/ScottASmolka","text":"Scott A. Smolka"},{"@pid":"15/10263","text":"Nicola Paoletti"}]},"title":"An STL-Based Formulation of Resilience in Cyber-Physical Systems.","venue":"FORMATS","pages":"117-135","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/ChenLSP22","doi":"10.1007/978-3-031-15839-1_7","ee":"https://doi.org/10.1007/978-3-031-15839-1_7","url":"https://dblp.org/rec/conf/formats/ChenLSP22"},
+"url":"URL#1541213"
+},
+{
+"@score":"1",
+"@id":"1541214",
+"info":{"authors":{"author":[{"@pid":"294/5248","text":"Surya Sai Teja Desu"},{"@pid":"138/1521","text":"Anubhav Srivastava"},{"@pid":"92/4566","text":"M. V. Panduranga Rao"}]},"title":"Model Checking for Entanglement Swapping.","venue":"FORMATS","pages":"98-114","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/DesuSR22","doi":"10.1007/978-3-031-15839-1_6","ee":"https://doi.org/10.1007/978-3-031-15839-1_6","url":"https://dblp.org/rec/conf/formats/DesuSR22"},
+"url":"URL#1541214"
+},
+{
+"@score":"1",
+"@id":"1541215",
+"info":{"authors":{"author":[{"@pid":"317/1097","text":"Charis Eleftheriadis"},{"@pid":"203/3305","text":"Nikolaos Kekatos"},{"@pid":"20/2927","text":"Panagiotis Katsaros"},{"@pid":"85/6852","text":"Stavros Tripakis"}]},"title":"On Neural Network Equivalence Checking Using SMT Solvers.","venue":"FORMATS","pages":"237-257","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/EleftheriadisKK22","doi":"10.1007/978-3-031-15839-1_14","ee":"https://doi.org/10.1007/978-3-031-15839-1_14","url":"https://dblp.org/rec/conf/formats/EleftheriadisKK22"},
+"url":"URL#1541215"
+},
+{
+"@score":"1",
+"@id":"1541216",
+"info":{"authors":{"author":[{"@pid":"222/2748","text":"Aline Goeminne"},{"@pid":"m/NicolasMarkey","text":"Nicolas Markey"},{"@pid":"11/7805","text":"Ocan Sankur"}]},"title":"Non-blind Strategies in Timed Network Congestion Games.","venue":"FORMATS","pages":"183-199","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/GoeminneMS22","doi":"10.1007/978-3-031-15839-1_11","ee":"https://doi.org/10.1007/978-3-031-15839-1_11","url":"https://dblp.org/rec/conf/formats/GoeminneMS22"},
+"url":"URL#1541216"
+},
+{
+"@score":"1",
+"@id":"1541217",
+"info":{"authors":{"author":[{"@pid":"323/4907","text":"Thomas Møller Grosen"},{"@pid":"179/3160","text":"Sean Kauffman"},{"@pid":"l/KimGuldstrandLarsen","text":"Kim Guldstrand Larsen"},{"@pid":"70/5831-2","text":"Martin Zimmermann 0002"}]},"title":"Monitoring Timed Properties (Revisited).","venue":"FORMATS","pages":"43-62","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/GrosenKLZ22","doi":"10.1007/978-3-031-15839-1_3","ee":"https://doi.org/10.1007/978-3-031-15839-1_3","url":"https://dblp.org/rec/conf/formats/GrosenKLZ22"},
+"url":"URL#1541217"
+},
+{
+"@score":"1",
+"@id":"1541218",
+"info":{"authors":{"author":[{"@pid":"328/0387","text":"Bernardo Jacobo Inclán"},{"@pid":"87/2566","text":"Aldric Degorre"},{"@pid":"12/4673","text":"Eugene Asarin"}]},"title":"Bounded Delay Timed Channel Coding.","venue":"FORMATS","pages":"65-79","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/InclanDA22","doi":"10.1007/978-3-031-15839-1_4","ee":"https://doi.org/10.1007/978-3-031-15839-1_4","url":"https://dblp.org/rec/conf/formats/InclanDA22"},
+"url":"URL#1541218"
+},
+{
+"@score":"1",
+"@id":"1541219",
+"info":{"authors":{"author":[{"@pid":"327/9784","text":"Ruya Karagulle"},{"@pid":"83/7744","text":"Nikos Aréchiga"},{"@pid":"139/3569","text":"Jonathan A. DeCastro"},{"@pid":"09/2955","text":"Necmiye Ozay"}]},"title":"Classification of Driving Behaviors Using STL Formulas: A Comparative Study.","venue":"FORMATS","pages":"153-162","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/KaragulleADO22","doi":"10.1007/978-3-031-15839-1_9","ee":"https://doi.org/10.1007/978-3-031-15839-1_9","url":"https://dblp.org/rec/conf/formats/KaragulleADO22"},
+"url":"URL#1541219"
+},
+{
+"@score":"1",
+"@id":"1541220",
+"info":{"authors":{"author":[{"@pid":"215/3580","text":"Diego Manzanas Lopez"},{"@pid":"215/3389","text":"Patrick Musau"},{"@pid":"200/7619","text":"Nathaniel Hamilton"},{"@pid":"96/11505","text":"Taylor T. Johnson"}]},"title":"Reachability Analysis of a General Class of Neural Ordinary Differential Equations.","venue":"FORMATS","pages":"258-277","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/LopezMHJ22","doi":"10.1007/978-3-031-15839-1_15","ee":"https://doi.org/10.1007/978-3-031-15839-1_15","url":"https://dblp.org/rec/conf/formats/LopezMHJ22"},
+"url":"URL#1541220"
+},
+{
+"@score":"1",
+"@id":"1541221",
+"info":{"authors":{"author":[{"@pid":"40/632","text":"Florian Luca"},{"@pid":"55/4663","text":"Joël Ouaknine"},{"@pid":"90/2367","text":"James Worrell 0001"}]},"title":"Algebraic Model Checking for Discrete Linear Dynamical Systems.","venue":"FORMATS","pages":"3-15","year":"2022","type":"Conference and Workshop Papers","access":"open","key":"conf/formats/LucaOW22","doi":"10.1007/978-3-031-15839-1_1","ee":"https://doi.org/10.1007/978-3-031-15839-1_1","url":"https://dblp.org/rec/conf/formats/LucaOW22"},
+"url":"URL#1541221"
+},
+{
+"@score":"1",
+"@id":"1541222",
+"info":{"authors":{"author":[{"@pid":"292/7485","text":"James C. A. Main"},{"@pid":"49/10827","text":"Mickael Randour"},{"@pid":"71/3720","text":"Jeremy Sproston"}]},"title":"Timed Games with Bounded Window Parity Objectives.","venue":"FORMATS","pages":"165-182","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/MainRS22","doi":"10.1007/978-3-031-15839-1_10","ee":"https://doi.org/10.1007/978-3-031-15839-1_10","url":"https://dblp.org/rec/conf/formats/MainRS22"},
+"url":"URL#1541222"
+},
+{
+"@score":"1",
+"@id":"1541223",
+"info":{"authors":{"author":[{"@pid":"274/2374","text":"Yiming Meng"},{"@pid":"95/3736-15","text":"Jun Liu 0015"}]},"title":"Robustly Complete Finite-State Abstractions for Verification of Stochastic Systems.","venue":"FORMATS","pages":"80-97","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/MengL22","doi":"10.1007/978-3-031-15839-1_5","ee":"https://doi.org/10.1007/978-3-031-15839-1_5","url":"https://dblp.org/rec/conf/formats/MengL22"},
+"url":"URL#1541223"
+},
+{
+"@score":"1",
+"@id":"1541224",
+"info":{"authors":{"author":[{"@pid":"229/7692","text":"Mathis Niehage"},{"@pid":"r/AnneRemke","text":"Anne Remke"}]},"title":"Learning that Grid-Convenience Does Not Hurt Resilience in the Presence of Uncertainty.","venue":"FORMATS","pages":"298-306","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/NiehageR22","doi":"10.1007/978-3-031-15839-1_17","ee":"https://doi.org/10.1007/978-3-031-15839-1_17","url":"https://dblp.org/rec/conf/formats/NiehageR22"},
+"url":"URL#1541224"
+},
+{
+"@score":"1",
+"@id":"1541225",
+"info":{"authors":{"author":[{"@pid":"264/3708","text":"Daniel Jarne Ornia"},{"@pid":"85/7141","text":"Manuel Mazo 0002"}]},"title":"Robust Event-Driven Interactions in Cooperative Multi-agent Learning.","venue":"FORMATS","pages":"281-297","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/OrniaM22","doi":"10.1007/978-3-031-15839-1_16","ee":"https://doi.org/10.1007/978-3-031-15839-1_16","url":"https://dblp.org/rec/conf/formats/OrniaM22"},
+"url":"URL#1541225"
+},
+{
+"@score":"1",
+"@id":"1541226",
+"info":{"authors":{"author":[{"@pid":"184/0684","text":"Daniel Selvaratnam"},{"@pid":"08/4101","text":"Michael Cantoni"},{"@pid":"290/7276","text":"J. M. Davoren"},{"@pid":"56/4268","text":"Iman Shames"}]},"title":"MITL Verification Under Timing Uncertainty.","venue":"FORMATS","pages":"136-152","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/SelvaratnamCDS22","doi":"10.1007/978-3-031-15839-1_8","ee":"https://doi.org/10.1007/978-3-031-15839-1_8","url":"https://dblp.org/rec/conf/formats/SelvaratnamCDS22"},
+"url":"URL#1541226"
+},
+{
+"@score":"1",
+"@id":"1541227",
+"info":{"authors":{"author":[{"@pid":"19/1551","text":"Xiaodong Yang"},{"@pid":"48/8717-1","text":"Tom Yamaguchi 0001"},{"@pid":"160/7295","text":"Hoang-Dung Tran"},{"@pid":"121/3956","text":"Bardh Hoxha"},{"@pid":"96/11505","text":"Taylor T. Johnson"},{"@pid":"74/5147","text":"Danil V. Prokhorov"}]},"title":"Neural Network Repair with Reachability Analysis.","venue":"FORMATS","pages":"221-236","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/YangYTHJP22","doi":"10.1007/978-3-031-15839-1_13","ee":"https://doi.org/10.1007/978-3-031-15839-1_13","url":"https://dblp.org/rec/conf/formats/YangYTHJP22"},
+"url":"URL#1541227"
+},
+{
+"@score":"1",
+"@id":"1662298",
+"info":{"authors":{"author":[{"@pid":"90/8556","text":"Sergiy Bogomolov"},{"@pid":"33/3095","text":"David Parker 0001"}]},"title":"Formal Modeling and Analysis of Timed Systems - 20th International Conference, FORMATS 2022, Warsaw, Poland, September 13-15, 2022, Proceedings","venue":["FORMATS","Lecture Notes in Computer Science"],"volume":"13465","publisher":"Springer","year":"2022","type":"Editorship","access":"open","key":"conf/formats/2022","doi":"10.1007/978-3-031-15839-1","ee":"https://doi.org/10.1007/978-3-031-15839-1","url":"https://dblp.org/rec/conf/formats/2022"},
+"url":"URL#1662298"
+}
+]
+}
+}
+}

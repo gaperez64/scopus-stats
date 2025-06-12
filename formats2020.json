@@ -1,0 +1,140 @@
+{
+"result":{
+"query":":facetid:toc:\"db/conf/formats/formats2020.bht\"",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"78.90"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"18",
+"@dc":"18",
+"@oc":"18",
+"@id":"48503652",
+"text":":facetid:toc:db/conf/formats/formats2020.bht"
+}
+},
+"hits":{
+"@total":"18",
+"@computed":"18",
+"@sent":"18",
+"@first":"0",
+"hit":[{
+"@score":"1",
+"@id":"2464408",
+"info":{"authors":{"author":[{"@pid":"19/3904","text":"Alessandro Abate"},{"@pid":"13/5961","text":"Alessandro Cimatti"},{"@pid":"84/7880","text":"Andrea Micheli"},{"@pid":"187/5469","text":"Muhammad Syifa&apos;ul Mufid"}]},"title":"Computation of the Transient in Max-Plus Linear Systems via SMT-Solving.","venue":"FORMATS","pages":"161-177","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/AbateCMM20","doi":"10.1007/978-3-030-57628-8_10","ee":"https://doi.org/10.1007/978-3-030-57628-8_10","url":"https://dblp.org/rec/conf/formats/AbateCMM20"},
+"url":"URL#2464408"
+},
+{
+"@score":"1",
+"@id":"2464409",
+"info":{"authors":{"author":[{"@pid":"265/5960","text":"Edoardo Bacci"},{"@pid":"33/3095","text":"David Parker 0001"}]},"title":"Probabilistic Guarantees for Safe Deep Reinforcement Learning.","venue":"FORMATS","pages":"231-248","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/Bacci020","doi":"10.1007/978-3-030-57628-8_14","ee":"https://doi.org/10.1007/978-3-030-57628-8_14","url":"https://dblp.org/rec/conf/formats/Bacci020"},
+"url":"URL#2464409"
+},
+{
+"@score":"1",
+"@id":"2464410",
+"info":{"authors":{"author":[{"@pid":"68/10243","text":"Nicolas Basset"},{"@pid":"04/21-1","text":"Thao Dang 0001"},{"@pid":"198/2035","text":"Akshay Mambakam"},{"@pid":"27/10091","text":"José Ignacio Requeno Jarabo"}]},"title":"Learning Specifications for Labelled Patterns.","venue":"FORMATS","pages":"76-93","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/BassetDMJ20","doi":"10.1007/978-3-030-57628-8_5","ee":"https://doi.org/10.1007/978-3-030-57628-8_5","url":"https://dblp.org/rec/conf/formats/BassetDMJ20"},
+"url":"URL#2464410"
+},
+{
+"@score":"1",
+"@id":"2464411",
+"info":{"authors":{"author":[{"@pid":"68/5725","text":"Thomas Brihaye"},{"@pid":"222/2748","text":"Aline Goeminne"}]},"title":"On Subgame Perfect Equilibria in Turn-Based Reachability Timed Games.","venue":"FORMATS","pages":"94-110","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/BrihayeG20","doi":"10.1007/978-3-030-57628-8_6","ee":"https://doi.org/10.1007/978-3-030-57628-8_6","url":"https://dblp.org/rec/conf/formats/BrihayeG20"},
+"url":"URL#2464411"
+},
+{
+"@score":"1",
+"@id":"2464412",
+"info":{"authors":{"author":[{"@pid":"268/7880","text":"Emily Clement"},{"@pid":"50/6556","text":"Thierry Jéron"},{"@pid":"m/NicolasMarkey","text":"Nicolas Markey"},{"@pid":"62/5579","text":"David Mentré"}]},"title":"Computing Maximally-Permissive Strategies in Acyclic Timed Automata.","venue":"FORMATS","pages":"111-126","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/ClementJMM20","doi":"10.1007/978-3-030-57628-8_7","ee":"https://doi.org/10.1007/978-3-030-57628-8_7","url":"https://dblp.org/rec/conf/formats/ClementJMM20"},
+"url":"URL#2464412"
+},
+{
+"@score":"1",
+"@id":"2464413",
+"info":{"authors":{"author":[{"@pid":"d/SDonatelli","text":"Susanna Donatelli"},{"@pid":"h/SergeHaddad","text":"Serge Haddad"}]},"title":"Guarded Autonomous Transitions Increase Conciseness and Expressiveness of Timed Automata.","venue":"FORMATS","pages":"215-230","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/DonatelliH20","doi":"10.1007/978-3-030-57628-8_13","ee":"https://doi.org/10.1007/978-3-030-57628-8_13","url":"https://dblp.org/rec/conf/formats/DonatelliH20"},
+"url":"URL#2464413"
+},
+{
+"@score":"1",
+"@id":"2464414",
+"info":{"authors":{"author":[{"@pid":"224/2090","text":"Wolfgang Granig"},{"@pid":"172/4700","text":"Stefan Jaksic"},{"@pid":"144/5921","text":"Horst Lewitschnig"},{"@pid":"60/1792","text":"Cristinel Mateis"},{"@pid":"60/1425","text":"Dejan Nickovic"}]},"title":"Weakness Monitors for Fail-Aware Systems.","venue":"FORMATS","pages":"283-299","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/GranigJLMN20","doi":"10.1007/978-3-030-57628-8_17","ee":"https://doi.org/10.1007/978-3-030-57628-8_17","url":"https://dblp.org/rec/conf/formats/GranigJLMN20"},
+"url":"URL#2464414"
+},
+{
+"@score":"1",
+"@id":"2464415",
+"info":{"authors":{"author":[{"@pid":"213/8008","text":"Mohammadhosein Hasanbeig"},{"@pid":"k/DanielKroening","text":"Daniel Kroening"},{"@pid":"19/3904","text":"Alessandro Abate"}]},"title":"Deep Reinforcement Learning with Temporal Logics.","venue":"FORMATS","pages":"1-22","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/HasanbeigKA20","doi":"10.1007/978-3-030-57628-8_1","ee":"https://doi.org/10.1007/978-3-030-57628-8_1","url":"https://dblp.org/rec/conf/formats/HasanbeigKA20"},
+"url":"URL#2464415"
+},
+{
+"@score":"1",
+"@id":"2464416",
+"info":{"authors":{"author":[{"@pid":"218/6063","text":"Léo Henry"},{"@pid":"50/6556","text":"Thierry Jéron"},{"@pid":"m/NicolasMarkey","text":"Nicolas Markey"}]},"title":"Active Learning of Timed Automata with Unobservable Resets.","venue":"FORMATS","pages":"144-160","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/HenryJM20","doi":"10.1007/978-3-030-57628-8_9","ee":"https://doi.org/10.1007/978-3-030-57628-8_9","url":"https://dblp.org/rec/conf/formats/HenryJM20"},
+"url":"URL#2464416"
+},
+{
+"@score":"1",
+"@id":"2464417",
+"info":{"authors":{"author":[{"@pid":"50/6556","text":"Thierry Jéron"},{"@pid":"m/NicolasMarkey","text":"Nicolas Markey"},{"@pid":"62/5579","text":"David Mentré"},{"@pid":"268/7992","text":"Reiya Noguchi"},{"@pid":"11/7805","text":"Ocan Sankur"}]},"title":"Incremental Methods for Checking Real-Time Consistency.","venue":"FORMATS","pages":"249-264","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/JeronMMNS20","doi":"10.1007/978-3-030-57628-8_15","ee":"https://doi.org/10.1007/978-3-030-57628-8_15","url":"https://dblp.org/rec/conf/formats/JeronMMNS20"},
+"url":"URL#2464417"
+},
+{
+"@score":"1",
+"@id":"2464418",
+"info":{"authors":{"author":[{"@pid":"273/0792","text":"Brian Kempa"},{"@pid":"78/5323-9","text":"Pei Zhang 0009"},{"@pid":"91/7033","text":"Phillip H. Jones"},{"@pid":"93/412","text":"Joseph Zambreno"},{"@pid":"67/519","text":"Kristin Yvonne Rozier"}]},"title":"Embedding Online Runtime Verification for Fault Disambiguation on Robonaut2.","venue":"FORMATS","pages":"196-214","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/KempaZJZR20","doi":"10.1007/978-3-030-57628-8_12","ee":"https://doi.org/10.1007/978-3-030-57628-8_12","url":"https://dblp.org/rec/conf/formats/KempaZJZR20"},
+"url":"URL#2464418"
+},
+{
+"@score":"1",
+"@id":"2464419",
+"info":{"authors":{"author":[{"@pid":"221/1706","text":"Martin Kölbl"},{"@pid":"20/6822","text":"Stefan Leue"},{"@pid":"66/2459","text":"Robert Schmid"}]},"title":"Dynamic Causes for the Violation of Timed Reachability Properties.","venue":"FORMATS","pages":"127-143","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/KolblLS20","doi":"10.1007/978-3-030-57628-8_8","ee":"https://doi.org/10.1007/978-3-030-57628-8_8","url":"https://dblp.org/rec/conf/formats/KolblLS20"},
+"url":"URL#2464419"
+},
+{
+"@score":"1",
+"@id":"2464420",
+"info":{"authors":{"author":[{"@pid":"15/1408","text":"Dongxu Li"},{"@pid":"16/7787","text":"Stanley Bak"},{"@pid":"90/8556","text":"Sergiy Bogomolov"}]},"title":"Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling.","venue":"FORMATS","pages":"265-282","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/LiBB20","doi":"10.1007/978-3-030-57628-8_16","ee":"https://doi.org/10.1007/978-3-030-57628-8_16","url":"https://dblp.org/rec/conf/formats/LiBB20"},
+"url":"URL#2464420"
+},
+{
+"@score":"1",
+"@id":"2464421",
+"info":{"authors":{"author":[{"@pid":"273/0900","text":"Rémi Parrot"},{"@pid":"94/6720","text":"Didier Lime"}]},"title":"Backward Symbolic Optimal Reachability in Weighted Timed Automata.","venue":"FORMATS","pages":"41-57","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/ParrotL20","doi":"10.1007/978-3-030-57628-8_3","ee":"https://doi.org/10.1007/978-3-030-57628-8_3","url":"https://dblp.org/rec/conf/formats/ParrotL20"},
+"url":"URL#2464421"
+},
+{
+"@score":"1",
+"@id":"2464422",
+"info":{"authors":{"author":[{"@pid":"216/7508","text":"Xin Qin"},{"@pid":"42/160","text":"Jyotirmoy V. Deshmukh"}]},"title":"Clairvoyant Monitoring for Signal Temporal Logic.","venue":"FORMATS","pages":"178-195","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/QinD20","doi":"10.1007/978-3-030-57628-8_11","ee":"https://doi.org/10.1007/978-3-030-57628-8_11","url":"https://dblp.org/rec/conf/formats/QinD20"},
+"url":"URL#2464422"
+},
+{
+"@score":"1",
+"@id":"2464423",
+"info":{"authors":{"author":[{"@pid":"171/1971","text":"Hai Nguyen Van"},{"@pid":"26/8036","text":"Thibaut Balabonski"},{"@pid":"52/5245","text":"Frédéric Boulanger"},{"@pid":"32/8321","text":"Chantal Keller"},{"@pid":"48/1480","text":"Benoît Valiron"},{"@pid":"63/5369","text":"Burkhart Wolff"}]},"title":"On the Semantics of Polychronous Polytimed Specifications.","venue":"FORMATS","pages":"23-40","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/VanBBKVW20","doi":"10.1007/978-3-030-57628-8_2","ee":"https://doi.org/10.1007/978-3-030-57628-8_2","url":"https://dblp.org/rec/conf/formats/VanBBKVW20"},
+"url":"URL#2464423"
+},
+{
+"@score":"1",
+"@id":"2464424",
+"info":{"authors":{"author":[{"@pid":"132/9797","text":"Simon Wimmer 0001"},{"@pid":"51/345","text":"Frédéric Herbreteau"},{"@pid":"p/JvdPol","text":"Jaco van de Pol"}]},"title":"Certifying Emptiness of Timed Büchi Automata.","venue":"FORMATS","pages":"58-75","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/WimmerHP20","doi":"10.1007/978-3-030-57628-8_4","ee":"https://doi.org/10.1007/978-3-030-57628-8_4","url":"https://dblp.org/rec/conf/formats/WimmerHP20"},
+"url":"URL#2464424"
+},
+{
+"@score":"1",
+"@id":"2580781",
+"info":{"authors":{"author":[{"@pid":"b/NathalieBertrand1","text":"Nathalie Bertrand 0001"},{"@pid":"32/8421-1","text":"Nils Jansen 0001"}]},"title":"Formal Modeling and Analysis of Timed Systems - 18th International Conference, FORMATS 2020, Vienna, Austria, September 1-3, 2020, Proceedings","venue":["FORMATS","Lecture Notes in Computer Science"],"volume":"12288","publisher":"Springer","year":"2020","type":"Editorship","key":"conf/formats/2020","doi":"10.1007/978-3-030-57628-8","ee":"https://doi.org/10.1007/978-3-030-57628-8","url":"https://dblp.org/rec/conf/formats/2020"},
+"url":"URL#2580781"
+}
+]
+}
+}
+}

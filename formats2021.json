@@ -1,0 +1,92 @@
+{
+"result":{
+"query":":facetid:toc:\"db/conf/formats/formats2021.bht\"",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"0.51"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"10",
+"@dc":"10",
+"@oc":"10",
+"@id":"48503653",
+"text":":facetid:toc:db/conf/formats/formats2021.bht"
+}
+},
+"hits":{
+"@total":"10",
+"@computed":"10",
+"@sent":"10",
+"@first":"0",
+"hit":[{
+"@score":"1",
+"@id":"2014694",
+"info":{"authors":{"author":[{"@pid":"12/4673","text":"Eugene Asarin"},{"@pid":"132/1855","text":"Thomas Ferrère"},{"@pid":"60/1425","text":"Dejan Nickovic"},{"@pid":"137/4307","text":"Dogan Ulus"}]},"title":"On the Complexity of Timed Pattern Matching.","venue":"FORMATS","pages":"15-31","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/AsarinFNU21","doi":"10.1007/978-3-030-85037-1_2","ee":"https://doi.org/10.1007/978-3-030-85037-1_2","url":"https://dblp.org/rec/conf/formats/AsarinFNU21"},
+"url":"URL#2014694"
+},
+{
+"@score":"1",
+"@id":"2014695",
+"info":{"authors":{"author":[{"@pid":"187/8432","text":"Fernando S. Barbosa"},{"@pid":"123/9459","text":"Jesper Karlsson"},{"@pid":"276/2138","text":"Pouria Tajvar"},{"@pid":"21/2684","text":"Jana Tumova"}]},"title":"Formal Methods for Robot Motion Planning with Time and Space Constraints (Extended Abstract).","venue":"FORMATS","pages":"1-14","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/BarbosaKTT21","doi":"10.1007/978-3-030-85037-1_1","ee":"https://doi.org/10.1007/978-3-030-85037-1_1","url":"https://dblp.org/rec/conf/formats/BarbosaKTT21"},
+"url":"URL#2014695"
+},
+{
+"@score":"1",
+"@id":"2014696",
+"info":{"authors":{"author":[{"@pid":"220/0647","text":"Frederik M. Bønneland"},{"@pid":"144/4964","text":"Peter Gjøl Jensen"},{"@pid":"l/KimGuldstrandLarsen","text":"Kim G. Larsen"},{"@pid":"12/9960","text":"Marco Muñiz"},{"@pid":"s/JiriSrba","text":"Jirí Srba"}]},"title":"Stubborn Set Reduction for Timed Reachability and Safety Games.","venue":"FORMATS","pages":"32-49","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/BonnelandJLMS21","doi":"10.1007/978-3-030-85037-1_3","ee":"https://doi.org/10.1007/978-3-030-85037-1_3","url":"https://dblp.org/rec/conf/formats/BonnelandJLMS21"},
+"url":"URL#2014696"
+},
+{
+"@score":"1",
+"@id":"2014697",
+"info":{"authors":{"author":[{"@pid":"06/445","text":"Edward Kim"},{"@pid":"16/7787","text":"Stanley Bak"},{"@pid":"94/8863","text":"Parasara Sridhar Duggirala"}]},"title":"Automatic Dynamic Parallelotope Bundles for Reachability Analysis of Nonlinear Systems.","venue":"FORMATS","pages":"50-66","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/KimBD21","doi":"10.1007/978-3-030-85037-1_4","ee":"https://doi.org/10.1007/978-3-030-85037-1_4","url":"https://dblp.org/rec/conf/formats/KimBD21"},
+"url":"URL#2014697"
+},
+{
+"@score":"1",
+"@id":"2014698",
+"info":{"authors":{"author":{"@pid":"95/3736-15","text":"Jun Liu 0015"}},"title":"Closing the Gap Between Discrete Abstractions and Continuous Control: Completeness via Robustness and Controllability.","venue":"FORMATS","pages":"67-83","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/Liu21","doi":"10.1007/978-3-030-85037-1_5","ee":"https://doi.org/10.1007/978-3-030-85037-1_5","url":"https://dblp.org/rec/conf/formats/Liu21"},
+"url":"URL#2014698"
+},
+{
+"@score":"1",
+"@id":"2014699",
+"info":{"authors":{"author":[{"@pid":"299/7346","text":"Sebastian Lund"},{"@pid":"299/7286","text":"Jesper van Diepen"},{"@pid":"l/KimGuldstrandLarsen","text":"Kim G. Larsen"},{"@pid":"12/9960","text":"Marco Muñiz"},{"@pid":"299/6439","text":"Tobias Ringholm Jørgensen"},{"@pid":"299/7006","text":"Tobias Skaarup Daa Andersen"}]},"title":"An Integer Static Analysis for Better Extrapolation in Uppaal.","venue":"FORMATS","pages":"84-99","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/LundDLMJA21","doi":"10.1007/978-3-030-85037-1_6","ee":"https://doi.org/10.1007/978-3-030-85037-1_6","url":"https://dblp.org/rec/conf/formats/LundDLMJA21"},
+"url":"URL#2014699"
+},
+{
+"@score":"1",
+"@id":"2014700",
+"info":{"authors":{"author":[{"@pid":"241/6339","text":"Thomas Mari"},{"@pid":"04/21-1","text":"Thao Dang 0001"},{"@pid":"29/777","text":"Gregor Gössler"}]},"title":"Explaining Safety Violations in Real-Time Systems.","venue":"FORMATS","pages":"100-116","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/MariDG21","doi":"10.1007/978-3-030-85037-1_7","ee":"https://doi.org/10.1007/978-3-030-85037-1_7","url":"https://dblp.org/rec/conf/formats/MariDG21"},
+"url":"URL#2014700"
+},
+{
+"@score":"1",
+"@id":"2014701",
+"info":{"authors":{"author":[{"@pid":"200/7744","text":"Sara Mohammadinejad"},{"@pid":"152/3505","text":"Brandon Paulsen"},{"@pid":"42/160","text":"Jyotirmoy V. Deshmukh"},{"@pid":"w/ChaoWang","text":"Chao Wang 0001"}]},"title":"DiffRNN: Differential Verification of Recurrent Neural Networks.","venue":"FORMATS","pages":"117-134","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/MohammadinejadP21","doi":"10.1007/978-3-030-85037-1_8","ee":"https://doi.org/10.1007/978-3-030-85037-1_8","url":"https://dblp.org/rec/conf/formats/MohammadinejadP21"},
+"url":"URL#2014701"
+},
+{
+"@score":"1",
+"@id":"2014702",
+"info":{"authors":{"author":[{"@pid":"170/1204","text":"Andrea Peruffo"},{"@pid":"19/3904","text":"Alessandro Abate"}]},"title":"Formal Abstraction and Synthesis of Parametric Stochastic Processes.","venue":"FORMATS","pages":"135-153","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/formats/PeruffoA21","doi":"10.1007/978-3-030-85037-1_9","ee":"https://doi.org/10.1007/978-3-030-85037-1_9","url":"https://dblp.org/rec/conf/formats/PeruffoA21"},
+"url":"URL#2014702"
+},
+{
+"@score":"1",
+"@id":"2134295",
+"info":{"authors":{"author":[{"@pid":"14/3467","text":"Catalin Dima"},{"@pid":"32/9219","text":"Mahsa Shirmohammadi"}]},"title":"Formal Modeling and Analysis of Timed Systems - 19th International Conference, FORMATS 2021, Paris, France, August 24-26, 2021, Proceedings","venue":["FORMATS","Lecture Notes in Computer Science"],"volume":"12860","publisher":"Springer","year":"2021","type":"Editorship","key":"conf/formats/2021","doi":"10.1007/978-3-030-85037-1","ee":"https://doi.org/10.1007/978-3-030-85037-1","url":"https://dblp.org/rec/conf/formats/2021"},
+"url":"URL#2134295"
+}
+]
+}
+}
+}

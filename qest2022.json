@@ -1,0 +1,152 @@
+{
+"result":{
+"query":":facetid:toc:\"db/conf/qest/qest2022.bht\"",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"142.09"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"20",
+"@dc":"20",
+"@oc":"20",
+"@id":"48530586",
+"text":":facetid:toc:db/conf/qest/qest2022.bht"
+}
+},
+"hits":{
+"@total":"20",
+"@computed":"20",
+"@sent":"20",
+"@first":"0",
+"hit":[{
+"@score":"1",
+"@id":"1632417",
+"info":{"authors":{"author":[{"@pid":"77/5805","text":"Laura Carnevali"},{"@pid":"290/3983","text":"Riccardo Reali"},{"@pid":"50/3792","text":"Enrico Vicario"}]},"title":"Eulero: A Tool for Quantitative Modeling and Evaluation of Complex Workflows.","venue":"QEST","pages":"255-272","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/CarnevaliRV22","doi":"10.1007/978-3-031-16336-4_13","ee":"https://doi.org/10.1007/978-3-031-16336-4_13","url":"https://dblp.org/rec/conf/qest/CarnevaliRV22"},
+"url":"URL#1632417"
+},
+{
+"@score":"1",
+"@id":"1632418",
+"info":{"authors":{"author":[{"@pid":"16/2365","text":"Giuliano Casale"},{"@pid":"144/1450","text":"Yicheng Gao"},{"@pid":"307/3758","text":"Zifeng Niu"},{"@pid":"198/7538","text":"Lulai Zhu"}]},"title":"LN: A Meta-solver for Layered Queueing Network Analysis.","venue":"QEST","pages":"232-254","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/CasaleGNZ22","doi":"10.1007/978-3-031-16336-4_12","ee":"https://doi.org/10.1007/978-3-031-16336-4_12","url":"https://dblp.org/rec/conf/qest/CasaleGNZ22"},
+"url":"URL#1632418"
+},
+{
+"@score":"1",
+"@id":"1632419",
+"info":{"authors":{"author":[{"@pid":"08/2403","text":"Davide Cerotti"},{"@pid":"52/9511","text":"Simona Mancini"},{"@pid":"05/2603","text":"Marco Gribaudo"},{"@pid":"b/AndraBobbio","text":"Andrea Bobbio"}]},"title":"Analysis of an Electric Vehicle Charging System Along a Highway.","venue":"QEST","pages":"298-316","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/CerottiMGB22","doi":"10.1007/978-3-031-16336-4_15","ee":"https://doi.org/10.1007/978-3-031-16336-4_15","url":"https://dblp.org/rec/conf/qest/CerottiMGB22"},
+"url":"URL#1632419"
+},
+{
+"@score":"1",
+"@id":"1632420",
+"info":{"authors":{"author":[{"@pid":"61/441","text":"Pedro R. D&apos;Argenio"},{"@pid":"162/7860","text":"Juan A. Fraire"},{"@pid":"89/7952","text":"Arnd Hartmanns"},{"@pid":"224/0828","text":"Fernando D. Raverta"}]},"title":"Comparing Statistical and Analytical Routing Approaches for Delay-Tolerant Networks.","venue":"QEST","pages":"337-355","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/DArgenioFHR22","doi":"10.1007/978-3-031-16336-4_17","ee":"https://doi.org/10.1007/978-3-031-16336-4_17","url":"https://dblp.org/rec/conf/qest/DArgenioFHR22"},
+"url":"URL#1632420"
+},
+{
+"@score":"1",
+"@id":"1632421",
+"info":{"authors":{"author":[{"@pid":"286/6713","text":"Spandan Das"},{"@pid":"74/6354","text":"Pavithra Prabhakar"}]},"title":"Stability Analysis of Planar Probabilistic Piecewise Constant Derivative Systems.","venue":"QEST","pages":"192-213","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/DasP22","doi":"10.1007/978-3-031-16336-4_10","ee":"https://doi.org/10.1007/978-3-031-16336-4_10","url":"https://dblp.org/rec/conf/qest/DasP22"},
+"url":"URL#1632421"
+},
+{
+"@score":"1",
+"@id":"1632422",
+"info":{"authors":{"author":[{"@pid":"213/8008","text":"Mohammadhosein Hasanbeig"},{"@pid":"k/DanielKroening","text":"Daniel Kroening"},{"@pid":"19/3904","text":"Alessandro Abate"}]},"title":"LCRL: Certified Policy Synthesis via Logically-Constrained Reinforcement Learning.","venue":"QEST","pages":"217-231","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/HasanbeigKA22","doi":"10.1007/978-3-031-16336-4_11","ee":"https://doi.org/10.1007/978-3-031-16336-4_11","url":"https://dblp.org/rec/conf/qest/HasanbeigKA22"},
+"url":"URL#1632422"
+},
+{
+"@score":"1",
+"@id":"1632423",
+"info":{"authors":{"author":[{"@pid":"144/4964","text":"Peter Gjøl Jensen"},{"@pid":"278/3313","text":"Andrej Kiviriga"},{"@pid":"l/KimGuldstrandLarsen","text":"Kim Guldstrand Larsen"},{"@pid":"80/441","text":"Ulrik Nyman"},{"@pid":"328/9862","text":"Adriana Mijacika"},{"@pid":"328/9688","text":"Jeppe Høiriis Mortensen"}]},"title":"Monte Carlo Tree Search for Priced Timed Automata.","venue":"QEST","pages":"381-398","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/JensenKLNMM22","doi":"10.1007/978-3-031-16336-4_19","ee":"https://doi.org/10.1007/978-3-031-16336-4_19","url":"https://dblp.org/rec/conf/qest/JensenKLNMM22"},
+"url":"URL#1632423"
+},
+{
+"@score":"1",
+"@id":"1632424",
+"info":{"authors":{"author":[{"@pid":"76/906-1","text":"David Julien 0001"},{"@pid":"186/2114","text":"Guillaume Cantin"},{"@pid":"79/1404","text":"Benoît Delahaye"}]},"title":"End-to-End Statistical Model Checking for Parametric ODE Models.","venue":"QEST","pages":"85-106","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/JulienCD22","doi":"10.1007/978-3-031-16336-4_5","ee":"https://doi.org/10.1007/978-3-031-16336-4_5","url":"https://dblp.org/rec/conf/qest/JulienCD22"},
+"url":"URL#1632424"
+},
+{
+"@score":"1",
+"@id":"1632425",
+"info":{"authors":{"author":[{"@pid":"127/6736","text":"Ahmad Karimi"},{"@pid":"276/0643","text":"Marcel Moosbrugger"},{"@pid":"241/5425","text":"Miroslav Stankovic"},{"@pid":"k/LauraKovacs","text":"Laura Kovács"},{"@pid":"b/EzioBartocci","text":"Ezio Bartocci"},{"@pid":"05/2485","text":"Efstathia Bura"}]},"title":"Distribution Estimation for Probabilistic Loops.","venue":"QEST","pages":"26-42","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/KarimiMSKBB22","doi":"10.1007/978-3-031-16336-4_2","ee":"https://doi.org/10.1007/978-3-031-16336-4_2","url":"https://dblp.org/rec/conf/qest/KarimiMSKBB22"},
+"url":"URL#1632425"
+},
+{
+"@score":"1",
+"@id":"1632426",
+"info":{"authors":{"author":[{"@pid":"320/0898","text":"Andrey Kofnov"},{"@pid":"276/0643","text":"Marcel Moosbrugger"},{"@pid":"241/5425","text":"Miroslav Stankovic"},{"@pid":"b/EzioBartocci","text":"Ezio Bartocci"},{"@pid":"05/2485","text":"Efstathia Bura"}]},"title":"Moment-Based Invariants for Probabilistic Loops with Non-polynomial Assignments.","venue":"QEST","pages":"3-25","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/KofnovMSBB22","doi":"10.1007/978-3-031-16336-4_1","ee":"https://doi.org/10.1007/978-3-031-16336-4_1","url":"https://dblp.org/rec/conf/qest/KofnovMSBB22"},
+"url":"URL#1632426"
+},
+{
+"@score":"1",
+"@id":"1632427",
+"info":{"authors":{"author":[{"@pid":"l/MicheleLoreti","text":"Michele Loreti"},{"@pid":"258/3722","text":"Aniqa Rehman"}]},"title":"A Logical Framework for Reasoning About Local and Global Properties of Collective Systems.","venue":"QEST","pages":"133-149","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/LoretiR22","doi":"10.1007/978-3-031-16336-4_7","ee":"https://doi.org/10.1007/978-3-031-16336-4_7","url":"https://dblp.org/rec/conf/qest/LoretiR22"},
+"url":"URL#1632427"
+},
+{
+"@score":"1",
+"@id":"1632428",
+"info":{"authors":{"author":[{"@pid":"p/CarlaPiazza","text":"Carla Piazza"},{"@pid":"328/9725","text":"Riccardo Romanello"}]},"title":"Mirrors and Memory in Quantum Automata.","venue":"QEST","pages":"359-380","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/PiazzaR22","doi":"10.1007/978-3-031-16336-4_18","ee":"https://doi.org/10.1007/978-3-031-16336-4_18","url":"https://dblp.org/rec/conf/qest/PiazzaR22"},
+"url":"URL#1632428"
+},
+{
+"@score":"1",
+"@id":"1632429",
+"info":{"authors":{"author":[{"@pid":"263/6919","text":"Francesca Randone"},{"@pid":"32/1171","text":"Luca Bortolussi"},{"@pid":"71/5436","text":"Mirco Tribastone"}]},"title":"Jump Longer to Jump Less: Improving Dynamic Boundary Projection with h-Scaling.","venue":"QEST","pages":"150-170","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/RandoneBT22","doi":"10.1007/978-3-031-16336-4_8","ee":"https://doi.org/10.1007/978-3-031-16336-4_8","url":"https://dblp.org/rec/conf/qest/RandoneBT22"},
+"url":"URL#1632429"
+},
+{
+"@score":"1",
+"@id":"1632430",
+"info":{"authors":{"author":[{"@pid":"256/5552","text":"Kaustabha Ray"},{"@pid":"43/1989","text":"Ansuman Banerjee"}]},"title":"Preference-Aware Computation Offloading for IoT in Multi-access Edge Computing Using Probabilistic Model Checking.","venue":"QEST","pages":"275-297","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/RayB22","doi":"10.1007/978-3-031-16336-4_14","ee":"https://doi.org/10.1007/978-3-031-16336-4_14","url":"https://dblp.org/rec/conf/qest/RayB22"},
+"url":"URL#1632430"
+},
+{
+"@score":"1",
+"@id":"1632431",
+"info":{"authors":{"author":[{"@pid":"168/4839","text":"Khayyam Salehi"},{"@pid":"138/6032","text":"Ali A. Noroozi"},{"@pid":"134/8129","text":"Sepehr Amir-Mohammadian"},{"@pid":"168/4823","text":"MohammadSadegh Mohagheghi"}]},"title":"An Automated Quantitative Information Flow Analysis for Concurrent Programs.","venue":"QEST","pages":"43-63","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/SalehiNAM22","doi":"10.1007/978-3-031-16336-4_3","ee":"https://doi.org/10.1007/978-3-031-16336-4_3","url":"https://dblp.org/rec/conf/qest/SalehiNAM22"},
+"url":"URL#1632431"
+},
+{
+"@score":"1",
+"@id":"1632432",
+"info":{"authors":{"author":[{"@pid":"99/126","text":"Markus Siegle"},{"@pid":"259/9129","text":"Amin Soltanieh"}]},"title":"Rate Lifting for Stochastic Process Algebra - Exploiting Structural Properties -.","venue":"QEST","pages":"67-84","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/SiegleS22","doi":"10.1007/978-3-031-16336-4_4","ee":"https://doi.org/10.1007/978-3-031-16336-4_4","url":"https://dblp.org/rec/conf/qest/SiegleS22"},
+"url":"URL#1632432"
+},
+{
+"@score":"1",
+"@id":"1632433",
+"info":{"authors":{"author":[{"@pid":"282/9525","text":"Daria Smuseva"},{"@pid":"274/0524","text":"Ivan Malakhov"},{"@pid":"73/6512","text":"Andrea Marin"},{"@pid":"45/6478","text":"Aad van Moorsel"},{"@pid":"r/SRossi","text":"Sabina Rossi"}]},"title":"Verifier&apos;s Dilemma in Ethereum Blockchain: A Quantitative Analysis.","venue":"QEST","pages":"317-336","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/SmusevaMMMR22","doi":"10.1007/978-3-031-16336-4_16","ee":"https://doi.org/10.1007/978-3-031-16336-4_16","url":"https://dblp.org/rec/conf/qest/SmusevaMMMR22"},
+"url":"URL#1632433"
+},
+{
+"@score":"1",
+"@id":"1632434",
+"info":{"authors":{"author":[{"@pid":"172/1443","text":"Jip Spel"},{"@pid":"328/9846","text":"Svenja Stein"},{"@pid":"k/JoostPieterKatoen","text":"Joost-Pieter Katoen"}]},"title":"POMDP Controllers with Optimal Budget.","venue":"QEST","pages":"107-130","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/SpelSK22","doi":"10.1007/978-3-031-16336-4_6","ee":"https://doi.org/10.1007/978-3-031-16336-4_6","url":"https://dblp.org/rec/conf/qest/SpelSK22"},
+"url":"URL#1632434"
+},
+{
+"@score":"1",
+"@id":"1632435",
+"info":{"authors":{"author":[{"@pid":"329/0003","text":"Giuseppe Squillace"},{"@pid":"71/5436","text":"Mirco Tribastone"},{"@pid":"117/9987","text":"Max Tschaikowski"},{"@pid":"23/8526","text":"Andrea Vandin"}]},"title":"An Algorithm for the Formal Reduction of Differential Equations as Over-Approximations.","venue":"QEST","pages":"173-191","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/qest/SquillaceTTV22","doi":"10.1007/978-3-031-16336-4_9","ee":"https://doi.org/10.1007/978-3-031-16336-4_9","url":"https://dblp.org/rec/conf/qest/SquillaceTTV22"},
+"url":"URL#1632435"
+},
+{
+"@score":"1",
+"@id":"1663654",
+"info":{"authors":{"author":[{"@pid":"a/ErikaAbraham","text":"Erika Ábrahám"},{"@pid":"07/165","text":"Marco Paolieri"}]},"title":"Quantitative Evaluation of Systems - 19th International Conference, QEST 2022, Warsaw, Poland, September 12-16, 2022, Proceedings","venue":["QEST","Lecture Notes in Computer Science"],"volume":"13479","publisher":"Springer","year":"2022","type":"Editorship","key":"conf/qest/2022","doi":"10.1007/978-3-031-16336-4","ee":"https://doi.org/10.1007/978-3-031-16336-4","url":"https://dblp.org/rec/conf/qest/2022"},
+"url":"URL#1663654"
+}
+]
+}
+}
+}
